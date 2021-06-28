@@ -25,7 +25,7 @@ const HourAddress = () => {
       </div>
       <div className="location">
         <h2 class="location-title">
-          w h e r e{` `} t o {`   `}f i n d{'   '}u s :
+          w h e r e{`   `}t o{`   `}f i n d{`   `}u s :
         </h2>
         <div className="map">
           <Media src={map} />
@@ -54,10 +54,10 @@ const HoursImages = () => {
 const Hours = () => {
   return (
     <div className="hours-container">
-      <div xs="1">
+      <div>
         <HourAddress />
       </div>
-      <div xs="1">
+      <div>
         <HoursImages />
       </div>
     </div>
