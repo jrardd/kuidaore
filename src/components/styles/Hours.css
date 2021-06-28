@@ -1,3 +1,7 @@
+body {
+  background-color: #425a4a;
+}
+
 ul {
   list-style: none;
 }
@@ -6,9 +10,14 @@ h2 {
   white-space: pre;
 }
 
+/*
+container formatting
+*/
+
 .hours-container {
   display: flex;
   justify-content: space-around;
+  margin-bottom: auto;
 }
 
 .location-title {
@@ -19,8 +28,39 @@ h2 {
   text-align: center;
 }
 
-.map,
-.address {
+.hours-bottom,
+.hours-top {
+  max-width: 100%;
+}
+
+.hours-map,
+.hours-address {
   display: inline-block;
   justify-content: space-evenly;
+}
+
+.map,
+.address {
+  margin: 5px;
+}
+
+.left-col {
+  background-color: #fff;
+  padding: 5%;
+  margin: auto;
+  border-radius: 25px;
+}
+
+.right-col {
+  background-color: #fff;
+  padding: 1%;
+  margin: auto;
+  border-radius: 25px;
+}
+
+.bottom,
+.top {
+  align-self: center;
+  width: 80%;
+  height: auto;
 }
