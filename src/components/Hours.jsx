@@ -27,11 +27,11 @@ const HourAddress = () => {
         <h2 class="location-title">
           w h e r e{`   `}t o{`   `}f i n d{`   `}u s :
         </h2>
-        <div className="map">
-          <Media src={map} />
+        <div className="hours-map">
+          <Media className="map" src={map} />
         </div>
-        <div className="address">
-          <Media src={address} />
+        <div className="hours-address">
+          <Media className="address" src={address} />
         </div>
       </div>
     </div>
@@ -40,7 +40,7 @@ const HourAddress = () => {
 
 const HoursImages = () => {
   return (
-    <div className="hours-imgs">
+    <div className="img-fluid hours-imgs">
       <div className="hours-bottom">
         <Media className="bottom" src={bottom} alt="espresso machines" />
       </div>
@@ -53,12 +53,16 @@ const HoursImages = () => {
 
 const Hours = () => {
   return (
-    <div className="hours-container">
-      <div>
-        <HourAddress />
+    <div className="container hours-container">
+      <div className="left-col row">
+        <div className="col-sm-6">
+          <HourAddress />
+        </div>
       </div>
-      <div>
-        <HoursImages />
+      <div className="right-col row">
+        <div className="col-sm-6">
+          <HoursImages />
+        </div>
       </div>
     </div>
   );
