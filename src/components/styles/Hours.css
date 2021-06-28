@@ -1,0 +1,19 @@
+ul {
+  list-style: none;
+}
+
+.hours-container {
+  display: flex;
+}
+
+.hours-bottom,
+.hours-top {
+  justify-content: right;
+  max-width: 100%;
+  max-height: auto;
+}
+
+.hours-imgs {
+  height: 100px;
+  width: 100px;
+}
