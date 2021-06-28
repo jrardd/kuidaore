@@ -4,16 +4,19 @@ ul {
 
 .hours-container {
   display: flex;
+  justify-content: space-around;
 }
 
-.hours-bottom,
-.hours-top {
-  justify-content: right;
-  max-width: 100%;
-  max-height: auto;
+.location-title {
+  text-align: right;
 }
 
-.hours-imgs {
-  height: 100px;
-  width: 100px;
+.hours-text {
+  text-align: center;
+}
+
+.map,
+.address {
+  display: inline-block;
+  justify-content: space-evenly;
 }
