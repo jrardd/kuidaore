@@ -1,0 +1,22 @@
+ul {
+  list-style: none;
+}
+
+.hours-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.location-title {
+  text-align: right;
+}
+
+.hours-text {
+  text-align: center;
+}
+
+.map,
+.address {
+  display: inline-block;
+  justify-content: space-evenly;
+}
