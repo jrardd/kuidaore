@@ -36,7 +36,7 @@ container formatting
 }
 
 .left-col {
-  background-color: #fff;
+  background-color: #ededed;
   border-radius: 25px;
 }
 
@@ -46,7 +46,7 @@ container formatting
 
 .bottom,
 .top {
-  width: 100%;
+  width: 110%;
   height: auto;
   padding: 5px;
 }
