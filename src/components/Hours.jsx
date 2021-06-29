@@ -11,7 +11,7 @@ const HourAddress = () => {
     <Container className="hours-address">
       <Row className="hours">
         <h2 className="hours-title">
-          <strong>h o u r s :</strong>
+          <strong>h o u r s</strong>
         </h2>
         <Col className="hours-text">
           <ul>
@@ -28,7 +28,7 @@ const HourAddress = () => {
       <div className="location">
         <h2 class="location-title">
           <strong>
-            w h e r e{`   `}t o{`   `}f i n d{`   `}u s :
+            w h e r e{`   `}t o{`   `}f i n d{`   `}u s
           </strong>
         </h2>
         <Row className="address-imgs">
@@ -48,10 +48,10 @@ const HoursImages = () => {
   return (
     <div className="img-fluid hours-imgs">
       <div className="hours-bottom">
-        <Media className="bottom" src={bottom} alt="espresso machines" />
+        <Media className="bottom" src={top} alt="espresso machines" />
       </div>
       <div className="hours-top">
-        <Media className="top" src={top} alt="bread shelf" />
+        <Media className="top" src={bottom} alt="bread shelf" />
       </div>
     </div>
   );

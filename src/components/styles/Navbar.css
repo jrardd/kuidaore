@@ -1,9 +1,36 @@
 .navi {
+  background-color: #0b1d0f;
+  opacity: 0.92;
   font-family: 'Peddana';
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+
+.nav,
+.nav:active {
+  color: #c99d6a;
+}
+
+.nav:hover {
+  color: #425a4a;
 }
 
 .about {
   white-space: pre;
+}
+
+.order-btn {
+  border-radius: 50%;
+  width: 8vw;
+  height: 6vh;
+  background-color: #fff;
+  color: #c99d6a;
+}
+
+.order-btn:hover {
+  color: #425a4a;
+  background-color: rgb(194, 173, 146);
 }

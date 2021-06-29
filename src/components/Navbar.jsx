@@ -5,13 +5,21 @@ import './styles/Navbar.css';
 const Navigation = () => {
   return (
     <Navbar className="navi">
-      <NavLink className="menu">m e n u</NavLink>
-      <NavLink className="hours">h o u r s</NavLink>
-      <NavbarBrand className="site-title" href="#home">
-        K U I D A O R E
+      <NavLink className="menu nav">
+        <h2>m e n u</h2>
+      </NavLink>
+      <NavLink className="hours nav">
+        <h2>h o u r s</h2>
+      </NavLink>
+      <NavbarBrand className="site-title nav" href="#home">
+        <h1>K U I D A O R E</h1>
       </NavbarBrand>
-      <NavLink className="about">a b o u t{`   `}u s</NavLink>
-      <Button className="order">O R D E R</Button>
+      <NavLink className="about nav">
+        <h2>a b o u t{`   `}u s</h2>
+      </NavLink>
+      <Button className="order-btn">
+        <h2>O R D E R</h2>
+      </Button>
     </Navbar>
   );
 };
