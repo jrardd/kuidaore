@@ -1,5 +1,9 @@
 body {
   background-color: #425a4a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7%;
 }
 
 ul {
@@ -16,51 +20,54 @@ container formatting
 
 .hours-container {
   display: flex;
-  justify-content: space-around;
-  margin-bottom: auto;
 }
 
 .location-title {
+  width: inherit;
   text-align: right;
 }
 
 .hours-text {
+  font-size: 18px;
   text-align: center;
-}
-
-.hours-bottom,
-.hours-top {
-  max-width: 100%;
-}
-
-.hours-map,
-.hours-address {
-  display: inline-block;
-  justify-content: space-evenly;
-}
-
-.map,
-.address {
-  margin: 5px;
 }
 
 .left-col {
   background-color: #fff;
-  padding: 5%;
-  margin: auto;
   border-radius: 25px;
 }
 
 .right-col {
-  background-color: #fff;
-  padding: 1%;
-  margin: auto;
   border-radius: 25px;
 }
 
 .bottom,
 .top {
-  align-self: center;
-  width: 80%;
+  width: 100%;
   height: auto;
+  padding: 5px;
+}
+
+.hours-map,
+.hours-address {
+  display: flex;
+  padding-top: 3vh;
+  padding-bottom: 1vh;
+  align-items: center;
+  flex-direction: column;
+}
+
+.map,
+.address {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 600px) {
+  .map,
+  .address {
+    width: 75%;
+    height: auto;
+    padding: 3px;
+  }
 }
