@@ -1,14 +1,14 @@
 import './styles/Hours.css';
 import React from 'react';
 import { Media, Container, Row, Col } from 'reactstrap';
-import bottom from '../assets/hoursPage/espress-hourstop.png';
-import top from '../assets/hoursPage/bread-hoursbottom.png';
+import top from '../assets/hoursPage/espress-hourstop.png';
+import bottom from '../assets/hoursPage/bread-hoursbottom.png';
 import map from '../assets/hoursPage/map.png';
 import address from '../assets/hoursPage/address.png';
 
 const HourAddress = () => {
   return (
-    <div className="hours-address">
+    <Container className="hours-address">
       <Row className="hours">
         <h2 className="hours-title">
           <strong>h o u r s :</strong>
@@ -40,7 +40,7 @@ const HourAddress = () => {
           </Col>
         </Row>
       </div>
-    </div>
+    </Container>
   );
 };
 

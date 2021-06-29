@@ -4,6 +4,10 @@ body {
   justify-content: center;
   align-items: center;
   padding: 7%;
+  background-image: url('../../assets/icons/golden-floral1.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: inherit;
 }
 
 ul {
@@ -20,6 +24,7 @@ container formatting
 
 .hours-container {
   display: flex;
+  padding: 5%;
 }
 
 .location-title {
