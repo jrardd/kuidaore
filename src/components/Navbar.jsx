@@ -1,41 +1,19 @@
-import React from "react";
-import {
-  Nav,
-  NavLink,
-  Bars,
-  NavMenu,
-  NavBtn,
-  NavBtnLink,
-} from "./NavbarElements";
+import React from 'react';
+import { Navbar, NavbarBrand, NavLink, Button } from 'reactstrap';
+import './styles/Navbar.css';
 
-const Navbar = () => {
+const Navigation = () => {
   return (
-    <>
-      <Nav>
-        <NavLink to="/">
-          <h1>Logo</h1>
-        </NavLink>
-        <Bars />
-        <NavMenu>
-          <NavLink to="/menu" activeStyle>
-            m e n u
-          </NavLink>
-          <NavLink to="/hours" activeStyle>
-            h o u r s
-          </NavLink>
-          <NavLink to="/contact" activeStyle>
-            <h1>K U I D A O R E</h1>
-          </NavLink>
-          <NavLink to="/about" activeStyle>
-            a b o u t
-          </NavLink>
-        </NavMenu>
-        <NavBtn>
-          <NavBtnLink to="/order">O R D E R</NavBtnLink>
-        </NavBtn>
-      </Nav>
-    </>
+    <Navbar className="navi">
+      <NavLink className="menu">m e n u</NavLink>
+      <NavLink className="hours">h o u r s</NavLink>
+      <NavbarBrand className="site-title" href="#home">
+        K U I D A O R E
+      </NavbarBrand>
+      <NavLink className="about">a b o u t{`   `}u s</NavLink>
+      <Button className="order">O R D E R</Button>
+    </Navbar>
   );
 };
 
-export default Navbar;
+export default Navigation;
