@@ -3,6 +3,11 @@
   src: url('./assets/fonts/PoiretOne-Regular.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Peddana';
+  src: url('./assets/fonts/Peddana-Regular.ttf') format('truetype');
+}
+
 body {
   font-family: 'Poiret One';
 }
