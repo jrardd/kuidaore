@@ -1,7 +1,17 @@
-import React from "react";
+import React from 'react';
+import { Media, Container, Row, Col } from 'reactstrap';
 
-function About() {
-  return <div></div>;
-}
+const About = () => {
+  return (
+    <Container className="about-container">
+      <Row>
+        <Col className="about-img"></Col>
+      </Row>
+      <Row>
+        <Col className="about-text"></Col>
+      </Row>
+    </Container>
+  );
+};
 
 export default About;

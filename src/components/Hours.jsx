@@ -8,7 +8,7 @@ import address from '../assets/hoursPage/address.png';
 
 const HourAddress = () => {
   return (
-    <div className="hours-address">
+    <Container className="hours-address">
       <Row className="hours">
         <h2 className="hours-title">
           <strong>h o u r s :</strong>
@@ -40,7 +40,7 @@ const HourAddress = () => {
           </Col>
         </Row>
       </div>
-    </div>
+    </Container>
   );
 };
 
