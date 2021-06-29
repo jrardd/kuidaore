@@ -16,11 +16,11 @@ container formatting
   justify-content: center;
   align-items: center;
   padding: 7%;
-  background-image: url('../../assets/icons/golden-floral1.png');
+  background-image: url("../../assets/icons/golden-floral1.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: inherit;
-  font-family: 'Poiret One';
+  font-family: "Poiret One";
   min-height: 100vh;
   min-width: 100vw;
 }
