@@ -21,8 +21,8 @@ container formatting
   background-size: contain;
   background-position: inherit;
   font-family: "Poiret One";
-  min-height: 100vh;
-  min-width: 100vw;
+  height: auto;
+  min-width: 100%;
 }
 
 .location-title {
