@@ -16,15 +16,14 @@ container formatting
   justify-content: center;
   align-items: center;
   padding: 7%;
-  background-image: url("../../assets/icons/golden-floral1.png");
+  background-image: url('../../assets/icons/golden-floral1.png');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: inherit;
-  font-family: "Poiret One";
-  height: auto;
+  font-family: 'Poiret One';
   min-width: 100%;
+  min-height: 100vh;
 }
-
 .location-title {
   width: inherit;
   text-align: right;
@@ -67,6 +66,11 @@ container formatting
 }
 
 @media (max-width: 600px) {
+  .hours-container {
+    min-width: 100%;
+    min-height: 100vh;
+  }
+
   .map,
   .address {
     width: 75%;

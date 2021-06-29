@@ -1,11 +1,11 @@
-import React from "react";
-import { Navbar, NavbarBrand, NavLink, Button } from "reactstrap";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Home from "./Home";
-import Menu from "./Menu";
-import Hours from "./Hours";
-import About from "./About";
-import "./styles/Navbar.css";
+import React from 'react';
+import { Navbar, NavbarBrand, NavLink, Button } from 'reactstrap';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Home from './Home';
+import Menu from './Menu';
+import Hours from './Hours';
+import About from './About';
+import './styles/Navbar.css';
 
 const Navigation = () => {
   return (
@@ -23,7 +23,7 @@ const Navigation = () => {
         <NavLink className="about nav" href="/about">
           <h2>a b o u t{`   `}u s</h2>
         </NavLink>
-        <Button className="order-btn">
+        <Button className="order-btn" size="lg">
           <h2>O R D E R</h2>
         </Button>
       </Navbar>
