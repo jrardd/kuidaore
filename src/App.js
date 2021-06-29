@@ -1,12 +1,14 @@
+import React from 'react';
 import './App.css';
 import Hours from './components/Hours';
 
-function App() {
-  return (
-    <div className="App">
-      <Hours />
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <div>
+        <Hours />
+      </div>
+    );
+  }
 }
-
 export default App;

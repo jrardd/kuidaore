@@ -1,6 +1,6 @@
 import './styles/Hours.css';
 import React from 'react';
-import { Media } from 'reactstrap';
+import { Media, Container, Row, Col } from 'reactstrap';
 import bottom from '../assets/hoursPage/espress-hourstop.png';
 import top from '../assets/hoursPage/bread-hoursbottom.png';
 import map from '../assets/hoursPage/map.png';
@@ -9,9 +9,11 @@ import address from '../assets/hoursPage/address.png';
 const HourAddress = () => {
   return (
     <div className="hours-address">
-      <div className="hours">
-        <h2>h o u r s :</h2>
-        <div className="hours-text">
+      <Row className="hours">
+        <h2 className="hours-title">
+          <strong>h o u r s :</strong>
+        </h2>
+        <Col className="hours-text">
           <ul>
             <li>s u n d a y : 6:00AM - 3:00PM</li>
             <li>m o n d a y : 7:00AM - 3:00PM</li>
@@ -21,18 +23,22 @@ const HourAddress = () => {
             <li>f r i d a y : 7:00AM - 3:00PM</li>
             <li>s a t u r d a y : 7:00AM - 3:00PM</li>
           </ul>
-        </div>
-      </div>
+        </Col>
+      </Row>
       <div className="location">
         <h2 class="location-title">
-          w h e r e{`   `}t o{`   `}f i n d{`   `}u s :
+          <strong>
+            w h e r e{`   `}t o{`   `}f i n d{`   `}u s :
+          </strong>
         </h2>
-        <div className="hours-map">
-          <Media className="map" src={map} />
-        </div>
-        <div className="hours-address">
-          <Media className="address" src={address} />
-        </div>
+        <Row className="address-imgs">
+          <Col className="hours-map" xs="12" sm="6" md="6" lg="6" xl="6">
+            <Media className="map" src={map} />
+          </Col>
+          <Col className="hours-address" xs="12" sm="6" md="6" lg="6" xl="6">
+            <Media className="address" src={address} />
+          </Col>
+        </Row>
       </div>
     </div>
   );
@@ -53,18 +59,16 @@ const HoursImages = () => {
 
 const Hours = () => {
   return (
-    <div className="container hours-container">
-      <div className="left-col row">
-        <div className="col-sm-6">
+    <Container className="hours-container">
+      <Row>
+        <Col className="left-col" xs="12" sm="12" md="12" lg="6" xl="6">
           <HourAddress />
-        </div>
-      </div>
-      <div className="right-col row">
-        <div className="col-sm-6">
+        </Col>
+        <Col className="right-col" xs="12" sm="12" md="12" lg="6" xl="6">
           <HoursImages />
-        </div>
-      </div>
-    </div>
+        </Col>
+      </Row>
+    </Container>
   );
 };
 
