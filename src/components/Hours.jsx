@@ -9,7 +9,7 @@ import address from '../assets/hoursPage/address.png';
 const HourAddress = () => {
   return (
     <Container className="hours-address">
-      <Row className="hours">
+      <Row>
         <h2 className="hours-title">
           <strong>h o u r s</strong>
         </h2>
@@ -61,15 +61,14 @@ const Hours = () => {
   return (
     <Container className="hours-container">
       <Row>
-        <Col className="left-col" xs="12" sm="12" md="12" lg="6" xl="6">
+        <Col className="left-col-hours" xs="12" sm="12" md="12" lg="6" xl="6">
           <HourAddress />
         </Col>
-        <Col className="right-col" xs="12" sm="12" md="12" lg="6" xl="6">
+        <Col className="right-col-hours" xs="12" sm="12" md="12" lg="6" xl="6">
           <HoursImages />
         </Col>
       </Row>
     </Container>
   );
 };
-
 export default Hours;

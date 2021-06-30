@@ -15,7 +15,7 @@ container formatting
   display: flex;
   justify-content: center;
   padding: 7%;
-  background-image: url("../../assets/icons/golden-floral1.png");
+  background-image: url('../../assets/icons/golden-floral1.png');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: inherit;
@@ -24,6 +24,7 @@ container formatting
   min-width: 100%;
   background-position-y: 10vh;
   background-position-x: -40vh;
+
 }
 
 .location-title {
@@ -36,12 +37,12 @@ container formatting
   text-align: center;
 }
 
-.left-col {
+.left-col-hours {
   background-color: #ededed;
   border-radius: 25px;
 }
 
-.right-col {
+.right-col-hours {
   border-radius: 25px;
 }
 
@@ -68,6 +69,11 @@ container formatting
 }
 
 @media (max-width: 600px) {
+  .hours-container {
+    min-width: 100vw;
+    min-height: 100vh;
+  }
+
   .map,
   .address {
     width: 75%;

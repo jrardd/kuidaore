@@ -3,12 +3,14 @@
   opacity: 0.92;
   font-family: "Peddana";
   display: flex;
+  width: 100%;
   justify-content: space-evenly;
-  align-items: center;
   padding-top: 1vh;
   padding-bottom: 1vh;
   min-width: 100%;
   position: absolute;
+ 
+
 }
 
 .nav,
