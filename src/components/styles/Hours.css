@@ -24,6 +24,7 @@ container formatting
   min-width: 100%;
   min-height: 100vh;
 }
+
 .location-title {
   width: inherit;
   text-align: right;
@@ -34,12 +35,12 @@ container formatting
   text-align: center;
 }
 
-.left-col {
+.left-col-hours {
   background-color: #ededed;
   border-radius: 25px;
 }
 
-.right-col {
+.right-col-hours {
   border-radius: 25px;
 }
 
@@ -67,7 +68,7 @@ container formatting
 
 @media (max-width: 600px) {
   .hours-container {
-    min-width: 100%;
+    min-width: 100vw;
     min-height: 100vh;
   }
 

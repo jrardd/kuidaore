@@ -1,49 +1,68 @@
 h1 {
   white-space: pre;
-  text-align: center;
+  color: #c99d6a;
+}
+
+h3 {
+  line-height: 1.6;
+  text-align: block;
 }
 
 /* formatting About Component */
 
 .about-component {
   background-color: #425a4a;
-  min-height: 91.75vh;
-}
-
-/* formatting container that contains text and title */
-
-.about-title-container {
-  background-color: #ededed;
-  border-radius: 10px;
-  text-align: center;
-  margin-bottom: 5vh;
-}
-
-/* .about-container {
-  background-color: #425a4a;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 7%;
+  background-image: url('../../assets/icons/golden-floral2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 19vh;
+  background-position-x: 100vh;
   min-width: 100%;
-} */
+  min-height: 100vh;
+}
 
-/* formatting component title & description*/
+/* formatting component title */
 
-/* .about-title {
-  text-align: center;
-  background-color: #ededed;
-  min-width: 10vh;
-  min-height: 5vw;
-} */
+.about-title {
+  width: inherit;
+  text-align: right;
+  padding: 3vh;
+}
+
+/* formatting container that contains text and image  */
+
+.right-col-about {
+  border-radius: 25px;
+}
 
 /* formatting about image */
 
+.cake {
+  min-width: 80%;
+  min-height: 100%;
+}
+
 /* formatting component text*/
 
-/* .about-text {
+.about-text {
   background-color: #ededed;
+  width: inherit;
+  height: inherit;
+  padding: 10%;
   border-radius: 25px;
-  height: 50vh;
-  width: 35vh;
-} */
+}
+
+@media (max-width: 600px) {
+  h3 {
+    font-size: 17px;
+  }
+
+  .cake {
+    min-width: 75%;
+    height: auto;
+  }
+}
