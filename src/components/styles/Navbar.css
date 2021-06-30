@@ -1,13 +1,16 @@
 .navi {
   background-color: #0b1d0f;
   opacity: 0.92;
-  font-family: 'Peddana';
+  font-family: "Peddana";
   display: flex;
   width: 100%;
   justify-content: space-evenly;
   padding-top: 1vh;
   padding-bottom: 1vh;
-  margin: 0%;
+  min-width: 100%;
+  position: absolute;
+ 
+
 }
 
 .nav,
