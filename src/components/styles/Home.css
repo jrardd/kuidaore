@@ -1,4 +1,58 @@
 .home-header {
-  background-image: url(../../assets/affogato.jpg);
-  height: 50vh;
+  background-image: url(../../assets/homePage/affogato.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -25vh;
+  height: 85vh;
+  width: 100%;
+  display: flex;
+  border-style: dotted;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-text {
+  font-size: 10em;
+  color: white;
+}
+
+.section1 {
+  height: 65vh;
+  min-width: 100%;
+  background-color: #425a4a;
+  display: flex;
+  position: relative;
+  color: #c99d6a;
+  white-space: pre;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.menu-btn {
+  background-color: #fff;
+  color: #000;
+  position: sticky;
+  width: 10vw;
+}
+
+@media (max-width: 1710px) {
+  .home-header {
+    background-position-y: -5vh;
+    height: 70vh;
+  }
+  .section1 {
+    height: 45vh;
+  }
+}
+
+@media (max-width: 1215px) {
+  .home-header {
+    background-position-y: 0vh;
+    height: 55vh;
+  }
+
+  .welcome-text {
+    font-size: 5em;
+    color: white;
+  }
 }

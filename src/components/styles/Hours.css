@@ -14,15 +14,16 @@ container formatting
   background-color: #425a4a;
   display: flex;
   justify-content: center;
-  align-items: center;
   padding: 7%;
   background-image: url("../../assets/icons/golden-floral1.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: inherit;
   font-family: "Poiret One";
-  height: auto;
+  min-height: 100vh;
   min-width: 100%;
+  background-position-y: 10vh;
+  background-position-x: -40vh;
 }
 
 .location-title {
