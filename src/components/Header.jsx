@@ -7,7 +7,7 @@ function Header({ title, description }) {
   return (
     <Jumbotron className="header-component">
       <h1 className="display-4">{title}</h1>
-      <h3>{description}</h3>
+      <h3 className="header-description">{description}</h3>
     </Jumbotron>
   );
 }
