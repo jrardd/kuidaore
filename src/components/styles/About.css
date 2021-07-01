@@ -1,68 +1,117 @@
 h1 {
   white-space: pre;
-  color: #c99d6a;
 }
 
-h3 {
-  line-height: 1.6;
-  text-align: block;
+h4 {
+  line-height: 1.3;
 }
 
 /* formatting About Component */
-
 .about-component {
-  background-color: #425a4a;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 7%;
-  background-image: url('../../assets/icons/golden-floral2.png');
+  justify-content: space-around;
+  background-color: #425a4a;
+  background-image: url("../../assets/icons/golden-floral2.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: 19vh;
   background-position-x: 100vh;
+  padding: 7%;
   min-width: 100%;
   min-height: 100vh;
 }
 
-/* formatting component title */
+.both-cols {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ededed;
+  width: 35vw;
+  height: auto;
+  border-radius: 25px;
+  padding: 5%;
+}
 
 .about-title {
-  width: inherit;
-  text-align: right;
-  padding: 3vh;
+  display: flex;
+  justify-content: space-around;
+  padding: 1%;
 }
 
-/* formatting container that contains text and image  */
-
-.right-col-about {
-  border-radius: 25px;
+.about-title-text {
+  color: #c99d6a;
 }
-
-/* formatting about image */
 
 .cake {
-  min-width: 80%;
-  min-height: 100%;
+  width: 55%;
+  height: 75%;
 }
 
-/* formatting component text*/
+@media (max-width: 1800px) {
+  .about-text {
+    font-size: 1.3em;
+  }
 
-.about-text {
-  background-color: #ededed;
-  width: inherit;
-  height: inherit;
-  padding: 10%;
-  border-radius: 25px;
+  .about-title-text {
+    font-size: 1.7em;
+    text-align: right;
+  }
 }
 
-@media (max-width: 600px) {
-  h3 {
-    font-size: 17px;
+@media (max-width: 1450px) {
+  .about-component {
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-top: 10%;
+  }
+
+  .about-container {
+    min-width: 90%;
+    margin-bottom: 10%;
+  }
+
+  .about-text {
+    font-size: 1.7em;
+  }
+
+  .about-title-text {
+    font-size: 1.7em;
+    text-align: right;
   }
 
   .cake {
-    min-width: 75%;
-    height: auto;
+    width: 65%;
+    height: 85%;
+  }
+}
+
+@media (orientation: portrait) {
+  .about-component {
+    padding-top: 20%;
+  }
+
+  .about-container {
+    min-width: 100%;
+    margin-bottom: 10%;
+  }
+
+  .about-text {
+    font-size: 1.6em;
+  }
+
+  .about-title-text {
+    font-size: 2.5em;
+    text-align: right;
+  }
+
+  .cake {
+    width: 75%;
+    height: 95%;
   }
 }
