@@ -4,6 +4,9 @@ import { Media, Container, Row, Col } from "reactstrap";
 import "./styles/About.css";
 import cake from "../assets/aboutPage/about-img.png";
 
+/*
+ Contains About page title and text
+*/
 const AboutText = () => {
   return (
     <Container>
@@ -51,6 +54,9 @@ const AboutText = () => {
   );
 };
 
+/*
+ Contains Image and Text
+*/
 const About = () => {
   return (
     <Container className="about-component">
