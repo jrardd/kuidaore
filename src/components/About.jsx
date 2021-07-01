@@ -1,6 +1,6 @@
 import React from "react";
 import { Media, Container, Row, Col } from "reactstrap";
-//import Header from "./Header";
+import Header from "./Header";
 import "./styles/About.css";
 import cake from "../assets/aboutPage/about-img.png";
 
@@ -57,13 +57,27 @@ const AboutText = () => {
 /*
  Contains Image and Text
 */
-const About = () => {
-  return (
-    <Container className="about-component">
-      <Media className="cake" src={cake} />
-      <AboutText />
-    </Container>
-  );
-};
+class About extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      title: "a b o u t",
+      description: `"kuidaore" is a Japanese word that roughly translates to "ruin
+      oneself [go bankrupt] by extravagant spending on food" or, in
+      simpler terms, to "eat until you drop".`,
+    };
+  }
+  render() {
+    return (
+      <Container className="page-body">
+        <Header title={this.state.title} description={this.state.description} />
+        <Container className="about-component">
+          <Media className="cake" src={cake} />
+          <AboutText />
+        </Container>
+      </Container>
+    );
+  }
+}
 
 export default About;

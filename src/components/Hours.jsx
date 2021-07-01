@@ -1,10 +1,11 @@
-import './styles/Hours.css';
-import React from 'react';
-import { Media, Container, Row, Col } from 'reactstrap';
-import top from '../assets/hoursPage/espress-hourstop.png';
-import bottom from '../assets/hoursPage/bread-hoursbottom.png';
-import map from '../assets/hoursPage/map.png';
-import address from '../assets/hoursPage/address.png';
+import "./styles/Hours.css";
+import React from "react";
+import Header from "./Header";
+import { Media, Container, Row, Col } from "reactstrap";
+import top from "../assets/hoursPage/espress-hourstop.png";
+import bottom from "../assets/hoursPage/bread-hoursbottom.png";
+import map from "../assets/hoursPage/map.png";
+import address from "../assets/hoursPage/address.png";
 
 const HourAddress = () => {
   return (
@@ -57,18 +58,44 @@ const HoursImages = () => {
   );
 };
 
-const Hours = () => {
-  return (
-    <Container className="hours-container">
-      <Row>
-        <Col className="left-col-hours" xs="12" sm="12" md="12" lg="6" xl="6">
-          <HourAddress />
-        </Col>
-        <Col className="right-col-hours" xs="12" sm="12" md="12" lg="6" xl="6">
-          <HoursImages />
-        </Col>
-      </Row>
-    </Container>
-  );
-};
+class Hours extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      title: "h o u r s",
+      description: "this is our schedule",
+    };
+  }
+  render() {
+    return (
+      <Container className="page-body">
+        <Header title={this.state.title} description={this.state.description} />
+        <Container className="hours-container">
+          <Row>
+            <Col
+              className="left-col-hours"
+              xs="12"
+              sm="12"
+              md="12"
+              lg="6"
+              xl="6"
+            >
+              <HourAddress />
+            </Col>
+            <Col
+              className="right-col-hours"
+              xs="12"
+              sm="12"
+              md="12"
+              lg="6"
+              xl="6"
+            >
+              <HoursImages />
+            </Col>
+          </Row>
+        </Container>
+      </Container>
+    );
+  }
+}
 export default Hours;

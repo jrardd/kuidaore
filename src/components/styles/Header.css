@@ -1,0 +1,41 @@
+.header-component {
+  display: flex;
+  padding-top: 8%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-image: url(../../assets/icons/header-golden-floral.png);
+  background-size: auto;
+  background-color: #384d3f;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  border-style: double;
+  border-color: #b99062;
+  min-height: 50vh;
+  color: #d1a36e;
+  min-width: 100%;
+}
+
+.header-description {
+  text-align: center;
+}
+
+@media (max-width: 1500px) {
+  .header-component {
+    padding-top: 12%;
+  }
+}
+
+@media (orientation: portrait) {
+  .header-component {
+    padding-top: 17%;
+  }
+}
+
+@media (max-width: 620px) {
+  .header-component {
+    padding-top: 22%;
+  }
+}

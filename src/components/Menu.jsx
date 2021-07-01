@@ -1,9 +1,11 @@
 import React from "react";
+import Header from "./Header";
+import "./styles/Menu.css";
 
 function Menu() {
   return (
-    <div>
-      <h1>This is the Menu Page</h1>
+    <div className="menu-component">
+      <Header />
     </div>
   );
 }
