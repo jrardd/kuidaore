@@ -1,0 +1,32 @@
+.header-component {
+  display: flex;
+  padding-top: 7%;
+  background-image: url(../../assets/icons/header-golden-floral.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  border-style: dotted;
+  min-height: 40vh;
+  min-width: 100%;
+}
+
+@media (max-width: 1500px) {
+  .header-component {
+    padding-top: 12%;
+  }
+}
+
+@media (orientation: portrait) {
+  .header-component {
+    padding-top: 17%;
+  }
+}
+
+@media (max-width: 620px) {
+  .header-component {
+    padding-top: 22%;
+  }
+}

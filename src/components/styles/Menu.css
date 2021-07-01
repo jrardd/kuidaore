@@ -1,0 +1,9 @@
+.menu-component {
+  display: flex;
+  justify-content: center;
+  background-color: #425a4a;
+}
+
+.menu-title {
+  font-size: 10em;
+}

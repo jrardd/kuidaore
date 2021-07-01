@@ -21,11 +21,9 @@ const Navigation = () => {
           <h1>K U I D A O R E</h1>
         </NavbarBrand>
         <NavLink className="about nav" href="/about">
-          <h2>a b o u t{`   `}u s</h2>
+          <h2>a b o u t</h2>
         </NavLink>
-        <Button className="order-btn" size="lg">
-          <h2>O R D E R</h2>
-        </Button>
+        <Button className="order-btn" />
       </Navbar>
       <Switch>
         <Route exact path="/" component={Home} />

@@ -6,19 +6,23 @@ h4 {
   line-height: 1.3;
 }
 
+.page-body {
+  background-color: #425a4a;
+  min-width: 100%;
+  min-height: 100vh;
+}
+
 /* formatting About Component */
 .about-component {
   display: flex;
   justify-content: space-around;
-  background-color: #425a4a;
   background-image: url("../../assets/icons/golden-floral2.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: 19vh;
   background-position-x: 100vh;
-  padding: 7%;
   min-width: 100%;
-  min-height: 100vh;
+  padding: 5%;
 }
 
 .both-cols {
