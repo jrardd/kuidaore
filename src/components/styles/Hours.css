@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 ul {
   list-style: none;
 }
@@ -15,11 +19,11 @@ container formatting
   display: flex;
   justify-content: center;
   padding: 5%;
-  background-image: url("../../assets/icons/golden-floral1.png");
+  background-image: url('../../assets/icons/golden-floral1.png');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: inherit;
-  font-family: "Poiret One";
+  font-family: 'Poiret One';
   height: auto;
   min-width: 100%;
   background-position-y: 10vh;
@@ -69,14 +73,20 @@ container formatting
 
 @media (max-width: 600px) {
   .hours-container {
-    min-width: 100vw;
+    min-width: 100%;
     min-height: 100vh;
   }
 
   .map,
   .address {
-    width: 75%;
+    width: 100%;
     height: auto;
     padding: 3px;
+  }
+}
+
+@media (min-width: 900px) {
+  Row {
+    justify-content: space-between;
   }
 }
