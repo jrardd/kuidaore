@@ -20,7 +20,7 @@ container formatting
   background-size: contain;
   background-position: inherit;
   font-family: "Poiret One";
-  min-height: 100vh;
+  height: auto;
   min-width: 100%;
   background-position-y: 10vh;
   background-position-x: -40vh;
