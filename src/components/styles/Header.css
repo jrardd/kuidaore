@@ -3,8 +3,8 @@
   padding-top: 8%;
   padding-left: 5%;
   padding-right: 5%;
-  background-image: url(../../assets/icons/header-golden-floral.png);
-  background-size: auto;
+  background-image: url(../../assets/icons/aboutus-heading.png);
+  background-size: 45%;
   background-color: #384d3f;
   background-repeat: no-repeat;
   background-position-x: center;
@@ -25,17 +25,20 @@
 @media (max-width: 1500px) {
   .header-component {
     padding-top: 12%;
+    background-size: 60%;
   }
 }
 
 @media (orientation: portrait) {
   .header-component {
     padding-top: 17%;
+    background-size: 100%;
   }
 }
 
 @media (max-width: 620px) {
   .header-component {
     padding-top: 22%;
+    background-size: 130%;
   }
 }
