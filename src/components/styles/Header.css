@@ -17,8 +17,13 @@
   color: #d1a36e;
   min-width: 100%;
 }
+.header-title {
+  font-size: 4em;
+  font-family: "GreatVibes";
+}
 
 .header-description {
+  font-family: "Peddana";
   text-align: center;
 }
 
