@@ -62,7 +62,7 @@ class About extends React.Component {
     super(props);
     this.state = {
       title: "a b o u t",
-      description: `"kuidaore" is a Japanese word that roughly translates to "ruin
+      description: `"Kuidaore" is a Japanese word that roughly translates to "ruin
       oneself [go bankrupt] by extravagant spending on food" or, in
       simpler terms, to "eat until you drop".`,
     };

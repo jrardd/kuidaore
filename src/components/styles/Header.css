@@ -1,14 +1,14 @@
 .header-component {
   display: flex;
-  padding-top: 8%;
-  padding-left: 5%;
-  padding-right: 5%;
-  background-image: url(../../assets/icons/aboutus-heading.png);
+  padding-top: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-image: url(../../assets/icons/golden-floral-upsidedown.png);
   background-size: 45%;
   background-color: #384d3f;
   background-repeat: no-repeat;
   background-position-x: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-direction: column;
   align-items: center;
   border-style: double;

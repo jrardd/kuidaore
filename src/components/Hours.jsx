@@ -62,8 +62,9 @@ class Hours extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      title: 'h o u r s',
-      description: 'this is our schedule',
+      title: "h o u r s",
+      description: "This is our location and the times you can come visit us",
+
     };
   }
   render() {
