@@ -1,15 +1,15 @@
-import "./styles/Hours.css";
-import React from "react";
-import Header from "./Header";
-import { Media, Container, Row, Col } from "reactstrap";
-import top from "../assets/hoursPage/espress-hourstop.png";
-import bottom from "../assets/hoursPage/bread-hoursbottom.png";
-import map from "../assets/hoursPage/map.png";
-import address from "../assets/hoursPage/address.png";
+import './styles/Hours.css';
+import React from 'react';
+import Header from './Header';
+import { Media, Container, Row, Col } from 'reactstrap';
+import top from '../assets/hoursPage/espress-hourstop.png';
+import bottom from '../assets/hoursPage/bread-hoursbottom.png';
+import map from '../assets/hoursPage/map.png';
+import address from '../assets/hoursPage/address.png';
 
 const HourAddress = () => {
   return (
-    <Container className="hours-address">
+    <div className="hours-address">
       <Row>
         <h2 className="hours-title">
           <strong>h o u r s</strong>
@@ -41,7 +41,7 @@ const HourAddress = () => {
           </Col>
         </Row>
       </div>
-    </Container>
+    </div>
   );
 };
 
@@ -64,6 +64,7 @@ class Hours extends React.Component {
     this.state = {
       title: "h o u r s",
       description: "This is our location and the times you can come visit us",
+
     };
   }
   render() {

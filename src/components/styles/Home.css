@@ -2,7 +2,7 @@
   background-image: url(../../assets/homePage/affogato.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-y: -25vh;
+  background-position-y: -20vh;
   height: 85vh;
   width: 100%;
   display: flex;
@@ -45,7 +45,7 @@
   }
 }
 
-@media (max-width: 1215px) {
+@media (max-width: 1300px) {
   .home-header {
     background-position-y: 0vh;
     height: 55vh;
