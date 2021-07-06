@@ -1,13 +1,18 @@
 @font-face {
-  font-family: 'Poiret One';
-  src: url('./assets/fonts/PoiretOne-Regular.ttf') format('truetype');
+  font-family: "Poiret One";
+  src: url("./assets/fonts/PoiretOne-Regular.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'Peddana';
-  src: url('./assets/fonts/Peddana-Regular.ttf') format('truetype');
+  font-family: "Peddana";
+  src: url("./assets/fonts/Peddana-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "GreatVibes";
+  src: url("./assets/fonts/GreatVibes-Regular.ttf") format("truetype");
 }
 
 body {
-  font-family: 'Poiret One';
+  font-family: "Poiret One";
 }
