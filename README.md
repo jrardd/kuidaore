@@ -7,4 +7,4 @@
 
 [Here](https://github.com)'s a link to view the live repo!
 
-<img width="475" height="300" src="./src/assets/readme/HomeSC.png"> &nbsp;<img width="475" height="300" src="./src/assets/readme/MenuSC.png">
+<img width="375" height="300" src="./src/assets/readme/HomeSC.png"> &nbsp;<img width="375" height="300" src="./src/assets/readme/MenuSC.png">
