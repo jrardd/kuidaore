@@ -1,6 +1,6 @@
 # Kuidaore
 
-| ![kuidaore logo](./src/assets/icons/LOGO.png) | Kuidaore is a responsive concept website for a mock bakery; it was created using ReactJS and Bootstrap! It is structured much like a normal restaurant website. |
+| ![kuidaore logo](./src/assets/icons/LOGO.png) | Kuidaore is a responsive concept website for a mock bakery; it was created using ReactJS and Bootstrap. It is structured much like a normal restaurant website. |
 | --------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 ### View
